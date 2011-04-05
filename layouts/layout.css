@@ -1,0 +1,293 @@
+body {	
+	font-family: Helvetica, Arial, sans-serif;
+	height: 800px;
+	width: auto;
+	background: #FFF url('../images/me.jpg') no-repeat fixed 0 0;
+}
+
+h1 {
+	font-size: 40px;
+	color: #42A7C0;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+strong {
+	font-style: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+a img {
+	border: 0;
+}
+
+/* MENU */
+
+div#menu {
+	position: fixed;
+	top: 0;
+	right: 5%;
+	width: 300px;
+}
+
+div#menu-options {
+	height: 60px;
+	margin-top: -60px;
+	background-color: #71889E;
+	border-radius: 0 0 0 10px;
+	-moz-border-radius: 0 0 0 10px;
+	-webkit-border-radius: 0 0 0 10px;
+	text-align: center;
+}
+
+div#menu-options a img {
+	width: auto;
+	height: 90%;
+	width: 40%;
+}
+
+div#menu-options ul {
+	margin: 0;
+}
+
+div#menu-options li {
+	display: inline;
+}
+
+div#drag-menu {
+	background-color: #DBEEFE;
+	border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	width: 60px;
+	height: 20px;
+	cursor: pointer;
+	text-align: center;
+	float: right;
+	margin: 0;
+}
+
+/* CONTENT */
+
+div#content {
+	clear: both;
+	width: 400px;
+	height: 750px;
+	background-color: rgba(40, 47, 66, 0.15);
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+div#content p {
+	color: #000;
+	line-height: 2em;
+}
+
+div#content-info {
+	margin: 8%;
+}
+
+div#links ul {
+	float: right;
+}
+
+div#links li {
+	display: inline;
+}
+
+div#links a img {
+	width: 80px;
+	height: 80px;
+}
+
+/* FOOTER */
+
+div#footer {
+	clear: both;
+	height: 8%;
+	background-color: rgba(40, 47, 66, 0.1);
+}
+
+div#footer p {
+	float: right;
+	margin-right: 1%;
+}
+
+/* EDIT */
+
+div#edit {
+	position: fixed;
+	width: 700px;
+	height: 500px;
+	z-index: 9999;
+	background-color: #DDEFFE;
+	top: 0;
+	margin-top: -500px;
+	border-radius: 0 0 20px 20px;
+	-moz-border-radius: 0 0 20px 20px;
+	-webkit-border-radius: 0 0 20px 20px;
+}
+
+div#edit-content {
+	margin: 5% 10%;
+}
+
+div#edit h2 {
+	text-align: center;
+}
+
+div#edit div#positioning {
+	width: 50%;
+	float: left;
+}
+
+div#edit div#align {
+	width: 50%;
+	float: left;
+	margin-bottom: 2%;
+}
+
+div#edit div#align ul {
+	list-style: none;
+}
+
+div#edit div#align li {
+	margin: 5% 0;
+	font-size: 20px;
+}
+
+div#edit div#accept {
+	clear: both;
+	height: 40px;
+	width: 80%;
+	margin: 8% auto;
+	text-align: center;
+}
+
+div#edit div#accept a img {
+	width: 120px;
+	height: 50px;
+}
+
+div#edit table {
+	width: 80%;
+	height: 60%;
+	border-spacing: 10px;
+}
+
+div#edit td {
+	background-color: #FFF;
+	cursor: pointer;
+	text-align: center;
+	width: 8em;
+	height: 1.2em;
+	border-style: dashed;
+}
+
+div#edit td.selected {
+	border-style: solid;
+	background-color: #EEF7FE;
+}
+
+/* ABOUT */
+
+div#about {
+	position: fixed;
+	width: 600px;
+	height: 200px;
+	z-index: 9999;
+	background-color: #DDEFFE;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+
+div#about div#about-content {
+	margin: 5%;
+}
+
+div#about .close-about {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+
+div#about .close-about img {	
+	width: 40px;
+	height: 40px;
+}
+
+/* MASK */
+
+#mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9000;
+	background-color: #000;
+	opacity: 0.6;
+	display: none;
+}
+
+/* MISCELANEOUS */
+
+.hidden {
+	display: none;
+}
+
+.on-left {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.on-right {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.centered-x {
+	margin: auto;
+}
+
+.centered-y {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.bottom {
+	margin-top: 20%;
+}
+
+.top {
+	margin-bottom: 20%;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.justified {
+	text-align: justify;
+}

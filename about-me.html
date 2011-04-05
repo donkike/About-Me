@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Enrique Arango Lyons</title>
+	<link rel="stylesheet" href="layouts/layout.css" type="text/css" media="screen"></link>
+	<link rel="shortcut icon" href="favicon.ico"></link>
+	<script type="text/javascript" src="scripts/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+	
+	<div id="menu">
+		<div id="menu-options" class="hidden">
+			<ul>
+				<li>
+					<a id="edit-link" href="#edit" name="slide">
+						<img src="images/edit-button.png" alt="Editar">
+					</a>
+				</li>
+				<li>
+					<a id="about-link" href="#about" name="modal">
+						<img src="images/about-button.png" alt="Acerca de">
+					</a>
+				</li>
+			</ul>
+		</div>	
+		<div id="drag-menu">
+			<strong>Menu</strong>
+		</div>
+	</div>
+	
+	<div id="content" class="centered-y on-right">
+		<div id="content-info" class="center-align">
+			<div id="description"><br />			
+				<h1>Enrique Arango Lyons</h1>
+				<p>
+					Vivo en la ciudad de Medellín, Colombia.
+					Soy estudiante de Ingeniería de Sistemas en la Universidad
+					Eafit desde el año 2008.
+				</p>
+				<p>
+					Actualmente trabajo como monitor en la Línea I+D en
+					Informática Educativa y el próximo semestre comenzaré
+					la práctica.
+				</p>
+				<p>
+					En mis tiempos libres me gusta hacer deporte o leer.
+				</p>
+			</div>
+			<div id="links">
+				<ul>
+					<li>
+						<a href="http://twitter.com/donkike" target="_blank" >
+							<img src="images/twitter-icon.png" alt="Twitter"/>
+						</a>	
+					</li>				
+					<li>
+						<a href="http://www.facebook.com/karlysw" target="_blank" >
+							<img src="images/facebook-icon.png" alt="Facebook"/>
+						</a>					
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<p>Universidad EAFIT. 2011.</p>
+	</div>
+	
+	<div id="edit" class="hidden">
+		<div id="edit-content">
+		<h2>Editar</h2>
+		<div id="positioning">
+			<h3>Posición del texto</h3>
+			<table>
+				<tr>
+					<td name="top on-left">Arriba a la izquierda</td>
+					<td name="top centered-x">Arriba en el centro</td>
+					<td name="top on-right">Arriba a la derecha</td>
+				</tr>
+				<tr>
+					<td name="centered-y on-left">Centro a la izquierda</td>
+					<td name="centered-y centered-x">Centrado</td>
+					<td name="centered-y on-right" class="selected">Centro a la derecha</td>
+				</tr>
+				<tr>
+					<td name="bottom on-left">Abajo a la izquierda</td>
+					<td name="bottom centered-x">Abajo en el centro</td>
+					<td name="bottom on-right">Abajo a la derecha</td>
+				</tr>
+			</table>
+		</div>	
+		<div id="align">
+			<h3>Alineación del texto</h3>
+			<ul>
+				<li><input type="radio" value="left-align" name="text-align">Izquierda</input></li>
+				<li><input type="radio" value="center-align" name="text-align" checked="checked">Centrado</input></li>
+				<li><input type="radio" value="right-align" name="text-align">Derecha</input></li>
+				<li><input type="radio" value="justified" name="text-align">Justificado</input></li>
+			</ul>
+		</div>
+		<div id="color">
+			<h3>Color del texto</h3>
+			<input type="text" name="text-color" value="#000000" title="Color en hexadecimal para el texto." maxlength="7" size="7" />
+			<em>(hex.)</em>
+		</div>
+		
+		<div id="accept">
+			<a href="#">
+				<img src="images/accept.png" alt="Aceptar" />
+			</a>
+		</div>
+		</div>
+	</div>
+	
+	<div id="about" class="hidden">
+		<div id="about-content">
+			<h2>Acerca de</h2>
+			<p>
+				Esta página fue desarrollada para la materia de Tópicos Especiales en Ingeniería de Software, en el año 2011.
+			</p>
+		</div>
+		<a href="#" class="close-about">
+			<img src="images/close.png" alt="Cerrar" />
+		</a>
+	</div>
+	
+	<div id="mask"></div>
+
+</body>
+</html>
